@@ -1,19 +1,127 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="styles.css">
-    <title>Portfolio</title>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Mina Mohsen | Data Analyst Portfolio</title>
+  <link rel="stylesheet" href="style.css" />
+  <script defer src="script.js"></script>
 </head>
 <body>
-    <video autoplay muted loop>
-        <source src="854322-hd_1280_720_25fps.mp4" type="video/mp4">
+
+  <!-- VIDEO BACKGROUND -->
+  <div class="video-bg">
+    <video autoplay loop muted playsinline poster="profile.jpg">
+      <source src="854322-hd_1280_720_25fps.mp4" type="video/mp4">
+      Your browser does not support the video tag.
     </video>
-    <div class="content">
-        <h1 style="color: #ffffff;">Welcome to My Portfolio</h1>
-        <p style="color: #f0f0f0;">This is a demonstration of my work and skills.</p>
-        <!-- more content... -->
+    <div class="video-overlay"></div>
+  </div>
+
+  <!-- NAVBAR -->
+  <header>
+    <nav class="navbar">
+      <div class="logo" style="color:#fff;">Mina Mohsen</div>
+      <ul class="nav-links">
+        <li><a href="#home" style="color:#fff;">Home</a></li>
+        <li><a href="#about" style="color:#fff;">About</a></li>
+        <li><a href="#projects" style="color:#fff;">Projects</a></li>
+        <li><a href="#contact" style="color:#fff;">Contact</a></li>
+      </ul>
+    </nav>
+  </header>
+
+  <!-- HOME -->
+  <section id="home" class="section home animated fade-in">
+    <div class="container">
+      <h1 style="color:#fff;">Hello, I'm <span style="color:#64ffda;">Mina Mohsen</span></h1>
+      <h2 style="color:#fff;">Data Analyst | SQL Specialist | Problem Solver</h2>
+      <p style="color:#fff;">I specialize in solving SQL and data challenges efficiently and reliably.<br>I turn raw datasets into clear, actionable insights.</p>
+
+      <div class="buttons">
+        <a href="resume1.pdf" download class="btn primary" style="color:#0a192f;">Download Resume</a>
+        <a href="https://www.linkedin.com/in/mena-mohsen/" target="_blank" class="btn secondary" style="color:#fff;">LinkedIn</a>
+        <a href="https://github.com/Minamon44" target="_blank" class="btn secondary" style="color:#fff;">GitHub</a>
+      </div>
     </div>
+  </section>
+
+  <!-- ABOUT -->
+  <section id="about" class="section animated slide-up">
+    <div class="container about-container">
+      <img src="profile.jpg" alt="Mina Mohsen" class="profile-img" />
+      <div>
+        <h2 style="color:#fff;">About Me</h2>
+        <p style="color:#fff;">
+          I'm a data-focused professional with strong expertise in SQL,<br>PostgreSQL, and data analysis. I enjoy optimizing queries,<br>cleaning datasets, and building structured solutions that help businesses make data-driven decisions.
+        </p>
+        <h3 style="color:#fff;">Core Skills</h3>
+        <ul class="skills">
+          <li style="color:#fff;">SQL</li>
+          <li style="color:#fff;">PostgreSQL</li>
+          <li style="color:#fff;">Python</li>
+          <li style="color:#fff;">Data Cleaning</li>
+          <li style="color:#fff;">Data Visualization</li>
+          <li style="color:#fff;">Git & GitHub</li>
+        </ul>
+      </div>
+    </div>
+  </section>
+
+  <!-- PROJECTS -->
+  <section id="projects" class="section animated fade-in">
+    <div class="container">
+      <h2 style="color:#fff;">Projects</h2>
+      <div class="projects-grid">
+        <div class="project-card animated pop-in">
+          <div class="project-image">
+            <img src="project1.jpg" alt="Project Image">
+          </div>
+          <h3 style="color:#fff;">SQL Analytics Project</h3>
+          <p style="color:#fff;">Developed advanced SQL queries to analyze business data and generate reports.</p>
+          <p class="tech" style="color:#fff;">Tech: SQL, PostgreSQL</p>
+          <a href="https://github.com/Minamon44" target="_blank" class="project-link" style="color:#64ffda;">View on GitHub</a>
+        </div>
+        <div class="project-card animated pop-in">
+          <div class="project-image">
+            <img src="project1.jpg" alt="Project Image">
+          </div>
+          <h3 style="color:#fff;">Data Cleaning Automation</h3>
+          <p style="color:#fff;">Automated data preprocessing and transformation workflows.</p>
+          <p class="tech" style="color:#fff;">Tech: Python, Pandas</p>
+          <a href="https://github.com/Minamon44" target="_blank" class="project-link" style="color:#64ffda;">View on GitHub</a>
+        </div>
+        <div class="project-card animated pop-in">
+          <div class="project-image">
+            <img src="project1.jpg" alt="Project Image">
+          </div>
+          <h3 style="color:#fff;">Database Optimization</h3>
+          <p style="color:#fff;">Improved database performance using indexing and query optimization techniques.</p>
+          <p class="tech" style="color:#fff;">Tech: PostgreSQL</p>
+          <a href="https://github.com/Minamon44" target="_blank" class="project-link" style="color:#64ffda;">View on GitHub</a>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- CONTACT -->
+  <section id="contact" class="section contact animated fade-in">
+    <div class="container">
+      <h2 style="color:#fff;">Contact Me</h2>
+      <p class="contact-intro" style="color:#fff;">
+        Open to freelance projects, collaborations, and data-related opportunities.<br>Let’s build something valuable.
+      </p>
+      <div class="contact-buttons">
+        <a href="https://mail.google.com/mail/?view=cm&to=menamohsen44@gmail.com" target="_blank" class="contact-btn" style="color:#fff;">📧 Email Me</a>
+        <a href="https://www.linkedin.com/in/mena-mohsen/" target="_blank" class="contact-btn" style="color:#fff;">🔗 LinkedIn</a>
+        <a href="https://github.com/Minamon44" target="_blank" class="contact-btn" style="color:#fff;">💻 GitHub</a>
+        <a href="https://wa.me/201222693407" target="_blank" class="contact-btn whatsapp" style="color:#fff;">💬 WhatsApp Me</a>
+      </div>
+    </div>
+  </section>
+
+  <footer>
+    <p style="color:#fff;">© 2026 Mina Mohsen. All rights reserved.</p>
+  </footer>
 </body>
 </html>
