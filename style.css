@@ -164,6 +164,10 @@ body {
   font-size: 1rem;
 }
 
+#projects h2 {
+  color: #fff;
+}
+
 .projects-grid {
   display: grid;
   grid-template-columns: repeat(auto-fit, minmax(260px, 1fr));
