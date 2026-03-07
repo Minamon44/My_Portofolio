@@ -199,6 +199,12 @@ body {
   transform: translateY(-14px);
   box-shadow: 0 15px 40px #64ffda44;
 }
+.project-card h3 {
+  color: #fff;
+}
+.project-card p {
+  color: #fff;
+}
 .project-link {
   display: inline-block;
   margin-top: 10px;
@@ -207,7 +213,7 @@ body {
   font-weight: 600;
 }
 .tech {
-  color: #aab3c5;
+  color: #fff;
   font-size: 0.95rem;
 }
 
