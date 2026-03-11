@@ -374,6 +374,44 @@ body {
   border: 1px solid rgba(100,255,218,0.15);
 }
 
+.volunteer-badge {
+  display: inline-block;
+  font-size: 0.72rem;
+  font-weight: 600;
+  color: #64ffda;
+  background: rgba(100,255,218,0.1);
+  border: 1px solid rgba(100,255,218,0.3);
+  border-radius: 20px;
+  padding: 2px 10px;
+  margin-left: 8px;
+  vertical-align: middle;
+  letter-spacing: 0.04em;
+  text-transform: uppercase;
+}
+.timeline-list {
+  list-style: none;
+  padding: 0;
+  margin: 10px 0 14px;
+  display: flex;
+  flex-direction: column;
+  gap: 7px;
+}
+.timeline-list li {
+  color: #c8d3e5;
+  font-size: 0.95rem;
+  line-height: 1.6;
+  padding-left: 16px;
+  position: relative;
+}
+.timeline-list li::before {
+  content: '▸';
+  position: absolute;
+  left: 0;
+  color: #64ffda;
+  font-size: 0.8rem;
+  top: 2px;
+}
+
 footer {
   text-align: center;
   padding: 24px 12px;
